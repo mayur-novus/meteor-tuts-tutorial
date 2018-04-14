@@ -6,5 +6,14 @@ export default new SimplSchema({
     userId: {
         type: String,
         optional: true
-    }
+    },
+    views: {
+        type: SimplSchema.Integer,
+        optional: true
+    },
+    createdAt: {
+        type: Date,
+        optional: true
+    },
+    type: String,
 });
